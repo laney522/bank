@@ -8,10 +8,10 @@ const GetStarted = () => (
     flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
       <div className={`${styles.flexStart}
       flex-row`}>
-        <p className="font-poppins font-medium
+        <p className="font-poppins font-medium 
         test-[18px] leading-[23px]">
           <span className="text-gradient">Get</span>
-          <img src={arrowUp} />
+          <img src={arrowUp} alt="arrow" className="w-[23px] h-[23px] object-contain" />
         </p>
       </div>
     </div>
