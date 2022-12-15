@@ -14,6 +14,10 @@ const GetStarted = () => (
           <img src={arrowUp} alt="arrow" className="w-[23px] h-[23px] object-contain" />
         </p>
       </div>
+      <p className="font-poppins font-medium 
+        test-[18px] leading-[23px]">
+        <span className="text-gradient">Started</span>
+      </p>
     </div>
   </div>
 )
